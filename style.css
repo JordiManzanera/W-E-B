@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  border: thin solid red;
+
 
 }
 
@@ -10,6 +10,17 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
-#img {
+.item img {
   max-width: 100%;
+
 }
+
+.item {
+  border: thin solid black;
+  border-radius: 1em;
+  background-color: #a9a8a3;
+
+}
+
+.item:hover {
+   box-shadow: 10px 10px 5px grey;}
