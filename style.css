@@ -10,6 +10,8 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
+
+
 .item img {
   max-width: 100%;
 
@@ -22,5 +24,13 @@
 
 }
 
+.Texto {
+  padding: 0.5em;
+}
+
+.Enlace {
+  padding: 0.5em;
+
+}
 .item:hover {
    box-shadow: 10px 10px 5px grey;}
